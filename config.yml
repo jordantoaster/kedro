@@ -1,0 +1,4 @@
+output_dir: .
+project_name: Kedro
+repo_name: kedro
+python_package: kedro_example_jmcd

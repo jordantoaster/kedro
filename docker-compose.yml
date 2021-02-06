@@ -1,0 +1,11 @@
+version: "3"
+services:
+  datascience-kedro:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/code
+    ports:
+      - 8888:8888
+    container_name: ds-kedro
