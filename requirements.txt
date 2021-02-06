@@ -1,1 +1,2 @@
 kedro
+pip install kedro[pandas.CSVDataSet,pandas.ExcelDataSet]
